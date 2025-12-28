@@ -1,7 +1,4 @@
 from .rules import MIN_LENGTH, GOOD_LENGTH, SYMBOLS
-
-
-
 def validate_password(password: str):
     score = 0
     feedback = []
