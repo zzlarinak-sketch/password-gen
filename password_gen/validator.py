@@ -1,5 +1,5 @@
 from .rules import MIN_LENGTH, GOOD_LENGTH, SYMBOLS
-import string
+
 
 
 def validate_password(password: str):
