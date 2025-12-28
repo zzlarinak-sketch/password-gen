@@ -21,6 +21,9 @@ jobs:
           pip install -r requirements.txt || true
           pip install pytest flake8
 
+      - name: Install package
+        run: pip install -e .
+
       - name: Lint
         run: flake8 password_gen
 
